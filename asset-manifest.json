@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sneakers-app/static/css/main.c49d3d05.css",
+    "main.js": "/sneakers-app/static/js/main.72e6f4da.js",
+    "static/media/image-product-2.jpg": "/sneakers-app/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
+    "static/media/image-product-1.jpg": "/sneakers-app/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
+    "static/media/image-product-3.jpg": "/sneakers-app/static/media/image-product-3.af5c71ba9ffcc0b8b54d.jpg",
+    "static/media/image-product-4.jpg": "/sneakers-app/static/media/image-product-4.9962862ef3eff6d65e5b.jpg",
+    "static/media/sprite.svg": "/sneakers-app/static/media/sprite.92c82ec71fb0391bb2053736cf535e57.svg",
+    "index.html": "/sneakers-app/index.html",
+    "main.c49d3d05.css.map": "/sneakers-app/static/css/main.c49d3d05.css.map",
+    "main.72e6f4da.js.map": "/sneakers-app/static/js/main.72e6f4da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c49d3d05.css",
+    "static/js/main.72e6f4da.js"
+  ]
+}
