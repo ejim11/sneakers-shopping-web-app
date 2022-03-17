@@ -10,6 +10,11 @@ const Gallery = (props) => {
   const closeGallery = () => {
     props.onClose();
   };
+
+  const onFalseOpenHAndler = () => {
+    return;
+  };
+
   return (
     <Fragment>
       <Modal onClose={props.onClose}>
@@ -25,6 +30,7 @@ const Gallery = (props) => {
           big={classes.gallery__big}
           left={classes.left}
           right={classes.right}
+          onOpen={onFalseOpenHAndler}
         />
       </Modal>
     </Fragment>
