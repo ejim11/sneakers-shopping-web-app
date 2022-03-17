@@ -1,0 +1,42 @@
+@import "../general-sass/base";
+@import "../general-sass/animations";
+
+.cartItem {
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 1px solid $color-secondary-lighter;
+
+  &__image {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  &__content {
+    flex: 1;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    line-height: 2rem;
+
+    &-amount {
+      margin: 0 1rem;
+    }
+
+    &-total {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: $color-black;
+    }
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+
+    &-close {
+      height: 1.5rem;
+      width: 1.5rem;
+      fill: $color-secondary-light;
+      cursor: pointer;
+    }
+  }
+}

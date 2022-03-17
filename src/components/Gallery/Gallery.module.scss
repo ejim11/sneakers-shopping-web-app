@@ -1,0 +1,68 @@
+@import "../general-sass/base";
+
+.closediv {
+  display: flex;
+  justify-content: end;
+  padding: 1rem 0;
+}
+
+.close {
+  height: 3rem;
+  width: 3rem;
+  fill: $color-white;
+  cursor: pointer;
+
+  &:hover {
+    fill: $color-primary;
+  }
+}
+.gallery {
+  padding: 0;
+  margin: 0;
+
+  &__big {
+    margin-bottom: 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  &__small {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 2rem;
+    z-index: 50;
+
+    @media only screen and (max-width: $bp-smaller) {
+      justify-content: center;
+    }
+  }
+}
+
+.left,
+.right {
+  position: absolute;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: $color-black;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.left {
+  top: 45%;
+  left: -1.5rem;
+}
+
+.right {
+  top: 45%;
+  right: -1.5rem;
+}

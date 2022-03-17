@@ -1,0 +1,29 @@
+@import "../general-sass/base";
+@import "../general-sass/animations";
+
+.animate {
+  animation: openView 500ms linear;
+  -webkit-animation: openView 500ms linear;
+}
+
+.moveLeft {
+  animation: moveLeft 500ms ease-out;
+  -webkit-animation: moveLeft 500ms ease-out;
+}
+
+.moveSlideRight {
+  animation: moveSlideRight 500ms ease-out;
+  -webkit-animation: moveSlideRight 500ms ease-out;
+}
+
+.left-icon,
+.right-icon {
+  height: 2rem;
+  width: 2rem;
+  fill: currentColor;
+
+  @media only screen and(max-width: $bp-smaller) {
+    width: 3rem;
+    height: 3rem;
+  }
+}

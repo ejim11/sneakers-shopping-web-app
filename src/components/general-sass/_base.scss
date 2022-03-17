@@ -1,0 +1,24 @@
+$color-primary: hsl(26, 100%, 55%);
+$color-primary-2: hsl(25, 100%, 94%);
+
+$color-secondary-darker: hsl(220, 13%, 13%);
+$color-secondary-dark: hsl(219, 9%, 45%);
+
+$color-secondary-light: hsl(220, 14%, 75%);
+$color-secondary-lighter: hsl(223, 64%, 98%);
+
+$color-white: hsl(0, 0%, 100%);
+$color-black: hsl(0, 0%, 0%);
+
+$font-primary: Kumbh Sans;
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 62.5em; //1000px
+$bp-small: 56.25em; //900px
+$bp-smaller: 40.625em; //650px
+$bp-smallest: 31.25em; //500px
+$bp-tiny: 18.75em; //300px

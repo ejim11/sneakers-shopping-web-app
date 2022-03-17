@@ -1,0 +1,112 @@
+@import "../general-sass/base";
+@import "../general-sass/animations";
+
+.info {
+  padding: 10rem 6rem 8rem 6rem;
+  animation: moveUp 1.5s ease-in;
+  -webkit-animation: moveUp 1.5s ease-in;
+
+  @media only screen and(max-width: $bp-large) {
+    padding: 8rem 4rem 6rem 4rem;
+  }
+
+  @media only screen and(max-width: $bp-smaller) {
+    padding: 4rem 4rem 6rem 4rem;
+  }
+
+  &__head {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $color-primary;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+  }
+
+  &__header {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+  }
+  &__text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $color-secondary-dark;
+    margin-bottom: 1.5rem;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+
+    &-active {
+      font-size: 2rem;
+      font-weight: 700;
+      color: $color-black;
+      margin-right: 1rem;
+    }
+
+    &-percentDiscount {
+      padding: 0.3rem;
+      background-color: $color-primary-2;
+      color: $color-primary;
+      font-weight: 700;
+    }
+    &-inactive {
+      font-weight: 700;
+      padding-top: 0.5rem;
+      text-decoration: line-through;
+      color: $color-secondary-light;
+    }
+  }
+
+  &__add-to-cart {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-column-gap: 4rem;
+  }
+  &__amount {
+    display: flex;
+    align-items: center;
+    background-color: $color-secondary-lighter;
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+
+  &__button {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    background-color: $color-primary;
+    color: $color-white;
+    outline: none;
+    border: none;
+    justify-content: center;
+    border-radius: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      box-shadow: 0 1rem 2rem rgba($color-primary, 0.5);
+      transform: translateY(-0.3rem);
+    }
+    &:active {
+      transform: translateY(-0.1rem);
+    }
+
+    &__shopping-cart {
+      height: 2rem;
+      width: 2rem;
+      fill: currentColor;
+    }
+  }
+}
+
+.shopping-cart {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: currentColor;
+  margin-right: 1rem;
+}

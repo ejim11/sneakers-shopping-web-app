@@ -1,0 +1,39 @@
+@import "../../general-sass/base";
+
+input[type="number"] {
+  outline: none;
+  border: none;
+  width: 5rem;
+  text-align: center;
+  background-color: $color-secondary-lighter;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: $color-primary;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $color-primary-2;
+  }
+
+  &__minus,
+  &__plus {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
