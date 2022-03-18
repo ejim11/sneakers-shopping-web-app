@@ -17,8 +17,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/responsive-sneaker-shopping-web-app-with-react-and-scss-uIN55pQkf)
+- Live Site URL: [ live site](https://ejim11.github.io/sneakers-shopping-web-app/)
 
 ## My process
 
@@ -82,5 +82,5 @@ html {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ejim11](https://www.frontendmentor.io/profile/ejim11)
 - Twitter - [@favourejim56](https://www.twitter.com/@favourejim56)
