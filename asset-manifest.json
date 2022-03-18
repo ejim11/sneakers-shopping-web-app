@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sneakers-shopping-web-app/static/css/main.c49d3d05.css",
+    "main.css": "/sneakers-shopping-web-app/static/css/main.57154fc5.css",
     "main.js": "/sneakers-shopping-web-app/static/js/main.fbe4c140.js",
     "static/media/image-product-2.jpg": "/sneakers-shopping-web-app/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
     "static/media/image-product-1.jpg": "/sneakers-shopping-web-app/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
@@ -8,11 +8,11 @@
     "static/media/image-product-4.jpg": "/sneakers-shopping-web-app/static/media/image-product-4.9962862ef3eff6d65e5b.jpg",
     "static/media/sprite.svg": "/sneakers-shopping-web-app/static/media/sprite.92c82ec71fb0391bb2053736cf535e57.svg",
     "index.html": "/sneakers-shopping-web-app/index.html",
-    "main.c49d3d05.css.map": "/sneakers-shopping-web-app/static/css/main.c49d3d05.css.map",
+    "main.57154fc5.css.map": "/sneakers-shopping-web-app/static/css/main.57154fc5.css.map",
     "main.fbe4c140.js.map": "/sneakers-shopping-web-app/static/js/main.fbe4c140.js.map"
   },
   "entrypoints": [
-    "static/css/main.c49d3d05.css",
+    "static/css/main.57154fc5.css",
     "static/js/main.fbe4c140.js"
   ]
 }
