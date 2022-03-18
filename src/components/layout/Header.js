@@ -61,9 +61,9 @@ const Header = (props) => {
   const closeMenuHandler = (event) => {
     console.log(event.target);
 
-    // if (!event.target.dataset.type) {
-    //   return;
-    // }
+    if (!event.target.dataset.type) {
+      return;
+    }
     setHideMenu(true);
     setTimeout(() => {
       setHideMenu(false);
@@ -74,7 +74,7 @@ const Header = (props) => {
   };
 
   const navActiveHandler = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     let num = event.target.dataset.num;
     if (!num) {
       return;
@@ -106,7 +106,11 @@ const Header = (props) => {
             onClick={navActiveHandler}
           >
             <li className={classes.exit_icon}>
-              <svg className={classes["icon-cross"]} onClick={closeMenuHandler}>
+              <svg
+                className={classes["icon-cross"]}
+                onClick={closeMenuHandler}
+                data-type="0"
+              >
                 <use xlinkHref={`${icons}#icon-cross`}></use>
               </svg>
             </li>
