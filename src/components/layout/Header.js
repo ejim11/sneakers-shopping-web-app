@@ -105,17 +105,17 @@ const Header = (props) => {
             }`}
             onClick={navActiveHandler}
           >
-            <div className={classes.exit_icon}>
+            <li className={classes.exit_icon}>
               <svg className={classes["icon-cross"]} onClick={closeMenuHandler}>
                 <use xlinkHref={`${icons}#icon-cross`}></use>
               </svg>
-            </div>
+            </li>
             <li
               className={`${classes.header__nav_item} ${
                 linkActive === "1" ? classes.active_border : ""
               }`}
             >
-              <a href="http://#" data-num="1">
+              <a href="http://google.com" data-num="1">
                 Collections
               </a>
             </li>
@@ -124,7 +124,7 @@ const Header = (props) => {
                 linkActive === "2" ? classes.active_border : ""
               }`}
             >
-              <a href="http://#" data-num="2">
+              <a href="http://google.com" data-num="2">
                 Men
               </a>
             </li>
@@ -133,7 +133,7 @@ const Header = (props) => {
                 linkActive === "3" ? classes.active_border : ""
               }`}
             >
-              <a href="http://#" data-num="3">
+              <a href="http://google.com" data-num="3">
                 Women
               </a>
             </li>
@@ -142,7 +142,7 @@ const Header = (props) => {
                 linkActive === "4" ? classes.active_border : ""
               }`}
             >
-              <a href="http://#" data-num="4">
+              <a href="http://google.com" data-num="4">
                 About
               </a>
             </li>
@@ -151,7 +151,7 @@ const Header = (props) => {
                 linkActive === "5" ? classes.active_border : ""
               }`}
             >
-              <a href="http://#" data-num="5">
+              <a href="http://google.com" data-num="5">
                 Contact
               </a>
             </li>

@@ -126,14 +126,10 @@
 }
 
 .shopping-cart {
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 2.5rem;
+  width: 2.5rem;
   fill: $color-secondary-light;
   cursor: pointer;
-  @media only screen and(max-width: $bp-smallest) {
-    height: 2.2rem;
-    width: 2.2rem;
-  }
 }
 
 .cart-box {

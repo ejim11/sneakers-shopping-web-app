@@ -2,20 +2,20 @@
 @import "../general-sass/animations";
 
 .info {
-  padding: 10rem 6rem 8rem 6rem;
+  padding: 6rem 6rem 8rem 6rem;
   animation: moveUp 1.5s ease-in;
   -webkit-animation: moveUp 1.5s ease-in;
 
   @media only screen and(max-width: $bp-large) {
-    padding: 8rem 4rem 6rem 4rem;
+    padding: 6rem 4rem 6rem 4rem;
   }
 
-  @media only screen and(max-width: $bp-smaller) {
-    padding: 4rem 4rem 6rem 4rem;
+  @media only screen and(max-width: $bp-small) {
+    padding: 2rem 4rem 6rem 4rem;
   }
 
   &__head {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: $color-primary;
     margin: 1.5rem 0;
@@ -23,24 +23,16 @@
   }
 
   &__header {
-    font-size: 3rem;
+    font-size: 3.6rem;
     font-weight: 700;
     text-transform: capitalize;
-    margin-bottom: 2rem;
-
-    @media only screen and (max-width: $bp-smaller) {
-      font-size: 3.5rem;
-    }
+    margin-bottom: 1.5rem;
   }
   &__text {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 400;
     color: $color-secondary-dark;
-    margin-bottom: 1.5rem;
-
-    @media only screen and (max-width: $bp-smaller) {
-      font-size: 1.6rem;
-    }
+    margin-bottom: 2rem;
   }
 
   &__price {
@@ -51,7 +43,7 @@
       font-size: 2rem;
       font-weight: 700;
       color: $color-black;
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
 
     &-percentDiscount {
@@ -59,20 +51,26 @@
       background-color: $color-primary-2;
       color: $color-primary;
       font-weight: 700;
+      font-size: 1.2rem;
     }
     &-inactive {
       font-weight: 700;
       padding-top: 0.5rem;
       text-decoration: line-through;
       color: $color-secondary-light;
+      font-size: 1.2rem;
     }
   }
 
   &__add-to-cart {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(2, max-content);
     grid-column-gap: 4rem;
+    grid-template-columns: max-content minmax(max-content, 45%);
+
+    @media only screen and (max-width: $bp-bigger) {
+      grid-template-columns: repeat(2, max-content);
+    }
   }
   &__amount {
     display: flex;
@@ -80,6 +78,7 @@
     background-color: $color-secondary-lighter;
     border-radius: 1.5rem;
     overflow: hidden;
+    width: auto;
   }
 
   &__button {
@@ -95,6 +94,7 @@
     font-weight: 700;
     cursor: pointer;
     transition: all 0.2s;
+    font-size: 1.6rem;
 
     &:hover {
       box-shadow: 0 1rem 2rem rgba($color-primary, 0.5);

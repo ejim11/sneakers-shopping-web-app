@@ -104,10 +104,10 @@
 @keyframes showMenu {
   0% {
     opacity: 0;
-    transform: translateX(-5%);
+    transform: translateX(-100%);
   }
-  80% {
-    transform: translateX(-2%);
+  50% {
+    transform: translateX(-50%);
     opacity: 0.95;
   }
 

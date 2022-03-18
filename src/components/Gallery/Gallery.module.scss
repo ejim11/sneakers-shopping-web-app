@@ -1,9 +1,11 @@
 @import "../general-sass/base";
+@import "../general-sass//animations";
 
 .closediv {
   display: flex;
   justify-content: end;
   padding: 1rem 0;
+  -webkit-justify-content: end;
 }
 
 .close {
@@ -11,6 +13,7 @@
   width: 3rem;
   fill: $color-white;
   cursor: pointer;
+  margin-left: auto;
 
   &:hover {
     fill: $color-primary;
@@ -33,6 +36,8 @@
     justify-content: space-between;
     padding: 0 2rem;
     z-index: 50;
+    animation: moveUp 1.5s ease-in;
+    -webkit-animation: moveUp 1.5s ease-in;
 
     @media only screen and (max-width: $bp-smaller) {
       justify-content: center;

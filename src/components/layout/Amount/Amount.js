@@ -37,15 +37,20 @@ const Amount = (props) => {
   return (
     <Fragment>
       <button className={classes.button} onClick={decreaseInputHandler}>
-        <svg className={classes.button__minus}>
-          <use xlinkHref={`${icons}#icon-minus`}></use>
-        </svg>
+        <span>
+          <svg className={classes.button__minus}>
+            <use xlinkHref={`${icons}#icon-minus`}></use>
+          </svg>
+        </span>
       </button>
+      <label></label>
       <input type={"number"} value={inputValue} onChange={inputChangeHandler} />
       <button className={classes.button} onClick={increaseInputHandler}>
-        <svg className={classes.button__plus}>
-          <use xlinkHref={`${icons}#icon-plus`}></use>
-        </svg>
+        <span>
+          <svg className={classes.button__plus}>
+            <use xlinkHref={`${icons}#icon-plus`}></use>
+          </svg>
+        </span>
       </button>
     </Fragment>
   );

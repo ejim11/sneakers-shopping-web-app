@@ -18,12 +18,7 @@
 
 .left-icon,
 .right-icon {
-  height: 2rem;
-  width: 2rem;
+  height: 4rem;
+  width: 4rem;
   fill: currentColor;
-
-  @media only screen and(max-width: $bp-smaller) {
-    width: 3rem;
-    height: 3rem;
-  }
 }

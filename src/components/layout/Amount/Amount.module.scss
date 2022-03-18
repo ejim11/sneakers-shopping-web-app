@@ -10,13 +10,12 @@ input[type="number"] {
 }
 
 .button {
-  font-size: 1.5rem;
   font-weight: 700;
   border: none;
   outline: none;
   background-color: transparent;
   color: $color-primary;
-  padding: 1rem;
+  padding: 1.2rem;
   cursor: pointer;
   transition: all 0.2s;
 
@@ -26,8 +25,8 @@ input[type="number"] {
 
   &__minus,
   &__plus {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.6rem;
+    width: 1.6rem;
     fill: currentColor;
   }
 }
@@ -36,4 +35,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+label {
+  display: none;
 }

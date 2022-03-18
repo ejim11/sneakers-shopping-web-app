@@ -11,7 +11,23 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; //1rem = 10px
+  font-size: 100%; //1rem = 16px
+
+  @media only screen and (max-width: $bp-humongous) {
+    font-size: 87.5%; //1rem = 14px
+  }
+
+  @media only screen and (max-width: $bp-biggest) {
+    font-size: 75%; //1rem = 12px
+  }
+
+  @media only screen and (max-width: $bp-bigger) {
+    font-size: 68.75%; //1rem = 11px
+  }
+
+  @media only screen and (max-width: $bp-big) {
+    font-size: 62.5%; //1rem = 10px
+  }
 
   @media only screen and (max-width: $bp-largest) {
     font-size: 56.25%; //1rem = 9px
@@ -24,7 +40,7 @@ html {
 body {
   font-family: $font-primary;
   font-weight: 400;
-  margin: 0 14rem;
+  margin: 0 10%;
   position: relative;
 
   @media only screen and (max-width: $bp-small) {
@@ -85,7 +101,7 @@ body {
     }
     @media only screen and(max-width: $bp-smallest) {
       width: 100%;
-      height: 50rem;
+      height: 40rem;
       margin-top: 0;
       border-radius: 0;
     }
